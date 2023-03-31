@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-double-up"></i>
+   </div>
+    <header>
+      <h1 <a href="#">Portfolio</a></h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#Home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#projects" class="menu-btn">Projects</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home" id="Home">
+      <div class="max-width">
+         <div class="home-content">
+            <div class="text-1">Hello 👋 I'm</div>
+            <div class="text-2">Mayur Patel</div>
+            <div class="text-3">And I'm a <span class="typedText"></span>
+            </div> 
+         </div>
+      </div>
+   </section>
+
+   <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title fadein"><center>About me</center></h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="profile1.jpeg" alt="Mayur Patel">
+        </div>
+        <div class="column right">
+          <div class="text">I'm Mayur and I am a Web Developer</div>
+          <p>I am a Computer engineer with a passion for developing innovative solutions. I am a coding enthusiast and familiar with programming in C, C++, and Java. I am also skilled in web development, data structures, and algorithms. I can easily learn and adapt to new technologies. I enjoy collaborating with others, exchanging ideas, and finding innovative solutions to complex problems. With my strong background in programming and web development, I am able to develop high-quality solutions for a variety of projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <section class="skills" id="skills">
+    <div class="skills_section">
+      <div class="skills_head">
+          <h2>My <span>Skills</span></h2>
+          <p>Here is my skills to represent my Expertise</p>
+      </div>
+
+      <div class="skills_main">
+          <div class="skill_bar">
+              <div class="info">
+                  <p>HTML</p>
+                  <P>90%</P>
+              </div>
+              <div class="bar">
+                  <span class="html"></span>
+              </div>
+          </div>
+          <div class="skill_bar">
+              <div class="info">
+                  <p>CSS</p>
+                  <P>85%</P>
+              </div>
+              <div class="bar">
+                  <span class="css"></span>
+              </div>
+          </div>
+          <div class="skill_bar">
+              <div class="info">
+                  <p>PHP</p>
+                  <P>80%</P>
+              </div>
+              <div class="bar">
+                  <span class="php"></span>
+              </div>
+          </div>
+          <div class="skill_bar">
+              <div class="info">
+                  <p>Java Script</p>
+                  <P>80%</P>
+              </div>
+              <div class="bar">
+                  <span class="js"></span>
+              </div>
+          </div>
+          <div class="skill_bar">
+              <div class="info">
+                  <p>React js</p>
+                  <P>75%</P>
+              </div>
+              <div class="bar">
+                  <span class="react"></span>
+              </div>
+          </div>
+          <div class="skill_bar">
+              <div class="info">
+                  <p>Node js</p>
+                  <P>70%</P>
+              </div>
+              <div class="bar">
+                  <span class="node"></span>
+              </div>
+          </div>
+          <div class="skill_bar">
+              <div class="info">
+                  <p>C++</p>
+                  <P>80%</P>
+              </div>
+              <div class="bar">
+                  <span class="cpp"></span>
+              </div>
+          </div>
+          <div class="skill_bar">
+              <div class="info">
+                  <p>Java</p>
+                  <P>60%</P>
+              </div>
+              <div class="bar">
+                  <span class="java"></span>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="projects" id="projects">
+  <h2 class="title fadein"><center>Projects</center></h2>
+  <div class="max-width">
+    <div class="project-container">
+      <div class="project-card">
+        <img src="banking.png" alt="Banking System">
+        <div class="project-details">
+          <h3 class="project-title">Banking System</h3>
+          <p class="project-description">A web application to manage banking transactions and accounts. Built using HTML, CSS, JavaScript, and PHP.</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="portfolio.png" alt="Portfolio Website">
+        <div class="project-details">
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-description">My personal portfolio website built using HTML, CSS, and JavaScript.</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="foodie.png" alt="Foodie">
+        <div class="project-details">
+          <h3 class="project-title">Foodie</h3>
+          <p class="project-description">A recipe search engine that allows users to search for recipes based on ingredients or dish name. Built using HTML, CSS, JavaScript, and React.Js.</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="contact" id="contact">
+      <div class="container">
+         <h1 id="heading">Contact Me</h1>
+         <form action="process-form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            <input type="submit" value="Send Message">
+         </form>
+         <div class="contact-info">
+            <p>You can also reach me through the following:</p>
+            <ul>
+               <li>Email: <a href="mailto:mayurvpatel3107@gmail.com">mayurvpatel3107@gmail.com</a></li>
+               <li>Phone: 9313017220</li>
+               <li>Social Media: 
+                  <ul id="social">
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="https://github.com/mayurpatel3107">GitHub</a></li>
+                     <li><a href="https://www.linkedin.com/in/mayur-patel-b8b0bb23a/">LinkedIn</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <span>Created By <a href="https://www.linkedin.com/in/mayur-patel-b8b0bb23a/" target="_blank">&copy; Mayur Patel</a> | </span> <span>2023 All rights reserved </span>
+   </footer>
+    <script src="script.js" async></script>
+  </body>
+</html>
